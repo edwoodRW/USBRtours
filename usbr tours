@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the United Socialist British Republic</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0f0000;
+            color: #fff;
+        }
+        .header {
+            background-image: url('https://preview.redd.it/every-flag-in-kx-day-81-britain-v0-bazuz65lt6pb1.png?width=820&format=png&auto=webp&s=9929c29413fff5c05c54731ae55360ad3b291665'); /* Add your banner image URL here */
+            background-size: cover;
+            background-position: center;
+            color: rgb(51, 38, 38);
+            text-align: center;
+            padding: 100px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-family: 'Impact', sans-serif;
+        }
+        .header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #800000;
+        }
+        .navbar a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #b30000;
+            color: black;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-content h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #800000;
+        }
+        .card-content p {
+            font-size: 1em;
+            color: #555;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .footer {
+            background-color: #800000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Explore the United Socialist British Republic</h1>
+        <p><b>Discover the Unique Landmarks of England</b></p>
+    </div>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="tours.html">Tours</a>
+        <a href="about us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="images/tonyblairstat.PNG" alt="Revolution Square">
+            <div class="card-content">
+                <h3>Revolution Square</h3>
+                <p>Once known as Trafalgar Square, Revolution Square now stands as a symbol of the totalist revolution. The column is now adorned with the statue of Tony Blair, the leader who guided the revolution to its triumph.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/peoplestower.PNG" alt="People's Tower">
+            <div class="card-content">
+                <h3>People's Tower</h3>
+                <p>Formerly the iconic Big Ben, the People's Tower now houses the main offices of the Totalist Party. The clock face has been replaced with the emblem of the party, and it chimes revolutionary anthems every hour.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/towerbridge.png" alt="Unity Bridge">
+            <div class="card-content">
+                <h3>Unity Bridge</h3>
+                <p>Unity Bridge, previously known as the Tower Bridge, symbolizes the unity and strength of the people under the totalist regime. It is adorned with murals depicting scenes from the revolution and the rise of the People's Government.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/buckinghampalace.png" alt="Worker's Palace">
+            <div class="card-content">
+                <h3>Worker's Palace</h3>
+                <p>The Buckingham Palace has been transformed into the Worker's Palace, a museum dedicated to the history of the working-class struggle and the achievements of the totalist state. It offers guided tours that delve into the revolution's history.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/common.png" alt="Liberty Hall">
+            <div class="card-content">
+                <h3>Liberty Hall</h3>
+                <p>Formerly the Houses of Parliament, Liberty Hall now serves as the headquarters for the People's Assembly. The building is open to visitors who wish to learn about the new governance structure and the legislative process.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/gardens.png" alt="People's Park">
+            <div class="card-content">
+                <h3>People's Park</h3>
+                <p>Hyde Park has been reimagined as People's Park, a recreational area celebrating the revolution. It features statues of revolutionary heroes, spaces for public gatherings, and an annual festival celebrating the founding of the USBR.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2010 United Socialist British Republic Tours. All rights reserved.</p>
+    </div>
+</body>
+</html>
